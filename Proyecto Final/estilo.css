@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
+  border-width: 0;
+  color: #ffe3de;
+  font-family: 'Merienda One', cursive;
+}
+
+h2 {
+  font-family: 'Varela Round', sans-serif;
+  color: #ffe3de;
+}
+
+h3 {
+  font-family: 'Arvo', serif;
+  color: #ffe3de;
+}
+input{
+   display: inline-block;
+}
+label{
+  font-family: 'Arvo', serif;
+  color: #ffe3de;
+  font-size: 20px;
+}
+table{
+  margin: 0 35% 0;
+}
+p {
+  margin-bottom: 0;
+  color: #ffe3de;
+}
+a{
+  font-family: 'Arvo', serif;
+  color: #ffe3de;
+}
+.convertidor{
+
+  text-align: center;
+  font-family: 'Arvo', serif;
+  color: #ffe3de;
+}
+.damian {
+  text-decoration: overline;
+  text-decoration: underline;
+}
+.montaña{
+  margin-bottom:0;
+}
+.nube1 {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+.nube2 {
+  position: absolute;
+  left: 350px;
+  bottom: 250px;
+}
+.ddmi {
+  text-decoration: underline;
+}
+
+.superior {
+  margin: 0;
+  background-color:#0a043c;
+  position: relative;
+  padding-top: 100px;
+}
+
+.medio {
+  background-color: #03506f;
+  margin: 0;
+
+}/*middleContent color #03506f*/
+
+.footContent {
+  background-color: #a3ddcb;
+  margin: 0;
+
+}

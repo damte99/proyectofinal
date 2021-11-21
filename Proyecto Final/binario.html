@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Damián Tena</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Merienda+One&family=Varela+Round&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="promedio.js"></script>
+</head>
+<body>
+  <div class="superior">
+    <img class="nube1" src="images/cloud.png" alt="cloud-img">
+      <h1>Hola, soy Damián</h1>
+      <h3>Un estudiante de <span class="ddmi"><strong>DDMI</strong></span></h3>
+    <img class="nube2" src="images/cloud.png" alt="cloud-img">
+    <img class="montaña" src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="medio">
+
+    <div class="promedio">
+      <img src="https://images.vexels.com/media/users/3/127358/isolated/lists/736663fe6f9e03fcb39ace9020c42b4c-icono-de-calculadora-estacionaria.png" alt="">
+      <h2>Calculadora de promedios</h2>
+      <form>
+      <p><b>Ingrese cuántas calificaciones desea calcular</b></p>
+      <br>
+      <input id="calificaciones" type="number">
+      <input type="button" value="Calcular" onclick="calcularPromedio()"/><br/>
+      </form>
+      <p>Tu promedio es:</p>
+      <label id="lbPromedio"><h3>promedio</h3></label>
+      </div>
+    <hr>
+    <div class="IMC">
+      <img src="https://img.icons8.com/cotton/2x/fa314a/tape-measure.png" alt="">
+      <h2>Calculadora de IMC</h2>
+      <form>
+          <p>
+          <b>Ingrese sus datos</b>
+          <br/><br/>
+          </p>
+          <p>Estatura en metros</p>
+          <br/>
+          <input id="estatura" type="number"/>
+          <br/><br/> <p>peso en kg</p>
+          <br/>
+          <input id="peso" type="number"/>
+          <br/><br/>
+          <input type="button" value="Calcular" onclick="calcula_IMC()"/><br/>
+      </form>
+      <div id="resultado">
+          <p>Tu IMC es:</p><label id="lbResultado"><h3>IMC</h3></label>
+      </div>
+      <h3>Damián Alexis Tena Hernández 211314</h3>
+    </div>
+  </div>
+</body>
+
+</html>
